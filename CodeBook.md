@@ -52,24 +52,24 @@ Num | Name | Description
 40  |  tBodyGyroMagStd | Time domain signal. Standard deviation for the magnitude of the body angular velocity three-dimensional signals. Magnitude is calculated using the Euclidean norm.
 41  |  tBodyGyroJerkMagMean | Time domain signal. Mean value of the magnitude of the Jerk three-dimensional signals derived from the body angular velocity. Magnitude is calculated using the Euclidean norm.
 42  |  tBodyGyroJerkMagStd | Time domain signal. Standard deviation for the magnitude of the Jerk three-dimensional signals derived from the body angular velocity. Magnitude is calculated using the Euclidean norm.
-43  |  fBodyAccMeanX | Frequency domain signal. Mean value of the body acceleration signals on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-44  |  fBodyAccMeanY | Frequency domain signal. Frequency domain signal. Mean value of the body acceleration signals on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-45  |  fBodyAccMeanZ | Frequency domain signal. Frequency domain signal. Mean value of the body acceleration signals on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-46  |  fBodyAccStdX | Frequency domain signal. Standard deviation for the body acceleration signals on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-47  |  fBodyAccStdY | Frequency domain signal. Standard deviation for the body acceleration signals on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-48  |  fBodyAccStdZ | Frequency domain signal. Standard deviation for the body acceleration signals on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-49  |  fBodyAccJerkMeanX | Frequency domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-50  |  fBodyAccJerkMeanY | Frequency domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-51  |  fBodyAccJerkMeanZ | Frequency domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-52  |  fBodyAccJerkStdX | Frequency domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-53  |  fBodyAccJerkStdY | Frequency domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-54  |  fBodyAccJerkStdZ | Frequency domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-55  |  fBodyGyroMeanX | Frequency domain signal. Mean value of the body angular velocity on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-56  |  fBodyGyroMeanY | Frequency domain signal. Mean value of the body angular velocity on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-57  |  fBodyGyroMeanZ | Frequency domain signal. Mean value of the body angular velocity on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-58  |  fBodyGyroStdX | Frequency domain signal. Standard deviation for the body angular velocity on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-59  |  fBodyGyroStdY | Frequency domain signal. Standard deviation for the body angular velocity on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
-60  |  fBodyGyroStdZ | Frequency domain signal. Standard deviation for the body angular velocity on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+43  |  fBodyAccMeanX | Frequency domain signal. Mean value of the body acceleration signals on the 'X' axis with a Fast Fourier Transform (FFT) applied to these signals.
+44  |  fBodyAccMeanY | Frequency domain signal. Frequency domain signal. Mean value of the body acceleration signals on the 'Y' axis with a Fast Fourier Transform (FFT) applied to these signals.
+45  |  fBodyAccMeanZ | Frequency domain signal. Frequency domain signal. Mean value of the body acceleration signals on the 'Z' axis with a Fast Fourier Transform (FFT) applied to these signals.
+46  |  fBodyAccStdX | Frequency domain signal. Standard deviation for the body acceleration signals on the 'X' axis with a Fast Fourier Transform (FFT) applied to these signals.
+47  |  fBodyAccStdY | Frequency domain signal. Standard deviation for the body acceleration signals on the 'Y' axis with a Fast Fourier Transform (FFT) applied to these signals.
+48  |  fBodyAccStdZ | Frequency domain signal. Standard deviation for the body acceleration signals on the 'Z' axis with a Fast Fourier Transform (FFT) applied to these signals.
+49  |  fBodyAccJerkMeanX | Frequency domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the 'X' axis with a Fast Fourier Transform (FFT) applied to these signals.
+50  |  fBodyAccJerkMeanY | Frequency domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the 'Y' axis with a Fast Fourier Transform (FFT) applied to these signals.
+51  |  fBodyAccJerkMeanZ | Frequency domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the 'Z' axis with a Fast Fourier Transform (FFT) applied to these signals.
+52  |  fBodyAccJerkStdX | Frequency domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the 'X' axis with a Fast Fourier Transform (FFT) applied to these signals.
+53  |  fBodyAccJerkStdY | Frequency domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the 'Y' axis with a Fast Fourier Transform (FFT) applied to these signals.
+54  |  fBodyAccJerkStdZ | Frequency domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the 'Z' axis with a Fast Fourier Transform (FFT) applied to these signals.
+55  |  fBodyGyroMeanX | Frequency domain signal. Mean value of the body angular velocity on the 'X' axis with a Fast Fourier Transform (FFT) applied to these signals.
+56  |  fBodyGyroMeanY | Frequency domain signal. Mean value of the body angular velocity on the 'Y' axis with a Fast Fourier Transform (FFT) applied to these signals.
+57  |  fBodyGyroMeanZ | Frequency domain signal. Mean value of the body angular velocity on the 'Z' axis with a Fast Fourier Transform (FFT) applied to these signals.
+58  |  fBodyGyroStdX | Frequency domain signal. Standard deviation for the body angular velocity on the 'X' axis with a Fast Fourier Transform (FFT) applied to these signals.
+59  |  fBodyGyroStdY | Frequency domain signal. Standard deviation for the body angular velocity on the 'Y' axis with a Fast Fourier Transform (FFT) applied to these signals.
+60  |  fBodyGyroStdZ | Frequency domain signal. Standard deviation for the body angular velocity on the 'Z' axis with a Fast Fourier Transform (FFT) applied to these signals.
 61  |  fBodyAccMagMean | Frequency domain signal. Mean value of the magnitude of the body acceleration three-dimensional signals with a Fast Fourier Transform (FFT) applied to these signals. 
 62  |  fBodyAccMagStd | Frequency domain signal. Standard deviation for the magnitude of the body acceleration three-dimensional signals with a Fast Fourier Transform (FFT) applied to these signals. 
 63  |  fBodyAccJerkMagMean | Frequency domain signal. Mean value of the magnitude of the Jerk three-dimensional signals derived from the body linear acceleration with a Fast Fourier Transform (FFT) applied to these signals.
