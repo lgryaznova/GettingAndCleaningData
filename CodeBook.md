@@ -1,4 +1,12 @@
-# CODEBOOK
+## Getting and Cleaning Data Course Project
+
+# CodeBook
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually.
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used.
+
+Features are normalized and bounded within [-1,1].
 
 Num | Name | Description
 --- | ----------------- | ----------------------------------------------------
@@ -16,57 +24,57 @@ Num | Name | Description
 12  |  tGravityAccStdX | Time domain signal. Standard deviation for the gravity acceleration signals on the 'X' axis. Signals are captured at a constant rate of 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise, then  applying another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 13  |  tGravityAccStdY | Time domain signal. Standard deviation for the gravity acceleration signals on the 'Y' axis. Signals are captured at a constant rate of 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise, then  applying another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 14  |  tGravityAccStdZ | Time domain signal. Standard deviation for the gravity acceleration signals on the 'Z' axis. Signals are captured at a constant rate of 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise, then  applying another low pass Butterworth filter with a corner frequency of 0.3 Hz.
-15  |  tBodyAccJerkMeanX | Time domain signal.
-16  |  tBodyAccJerkMeanY | Time domain signal.
-17  |  tBodyAccJerkMeanZ | Time domain signal.
-18  |  tBodyAccJerkStdX | Time domain signal.
-19  |  tBodyAccJerkStdY | Time domain signal.
-20  |  tBodyAccJerkStdZ | Time domain signal.
-21  |  tBodyGyroMeanX | Time domain signal.
-22  |  tBodyGyroMeanY | Time domain signal.
-23  |  tBodyGyroMeanZ | Time domain signal.
-24  |  tBodyGyroStdX | Time domain signal.
-25  |  tBodyGyroStdY | Time domain signal.
-26  |  tBodyGyroStdZ | Time domain signal.
-27  |  tBodyGyroJerkMeanX | Time domain signal.
-28  |  tBodyGyroJerkMeanY | Time domain signal.
-29  |  tBodyGyroJerkMeanZ | Time domain signal.
-30  |  tBodyGyroJerkStdX | Time domain signal.
-31  |  tBodyGyroJerkStdY | Time domain signal.
-32  |  tBodyGyroJerkStdZ | Time domain signal.
-33  |  tBodyAccMagMean | Time domain signal.
-34  |  tBodyAccMagStd | Time domain signal.
-35  |  tGravityAccMagMean | Time domain signal.
-36  |  tGravityAccMagStd | Time domain signal.
-37  |  tBodyAccJerkMagMean | Time domain signal.
-38  |  tBodyAccJerkMagStd | Time domain signal.
-39  |  tBodyGyroMagMean | Time domain signal.
-40  |  tBodyGyroMagStd | Time domain signal.
-41  |  tBodyGyroJerkMagMean | Time domain signal.
-42  |  tBodyGyroJerkMagStd | Time domain signal.
-43  |  fBodyAccMeanX | Frequency domain signal.
-44  |  fBodyAccMeanY | Frequency domain signal.
-45  |  fBodyAccMeanZ | Frequency domain signal.
-46  |  fBodyAccStdX | Frequency domain signal.
-47  |  fBodyAccStdY | Frequency domain signal.
-48  |  fBodyAccStdZ | Frequency domain signal.
-49  |  fBodyAccJerkMeanX | Frequency domain signal.
-50  |  fBodyAccJerkMeanY | Frequency domain signal.
-51  |  fBodyAccJerkMeanZ | Frequency domain signal.
-52  |  fBodyAccJerkStdX | Frequency domain signal.
-53  |  fBodyAccJerkStdY | Frequency domain signal.
-54  |  fBodyAccJerkStdZ | Frequency domain signal.
-55  |  fBodyGyroMeanX | Frequency domain signal.
-56  |  fBodyGyroMeanY | Frequency domain signal.
-57  |  fBodyGyroMeanZ | Frequency domain signal.
-58  |  fBodyGyroStdX | Frequency domain signal.
-59  |  fBodyGyroStdY | Frequency domain signal.
-60  |  fBodyGyroStdZ | Frequency domain signal.
-61  |  fBodyAccMagMean | Frequency domain signal.
-62  |  fBodyAccMagStd | Frequency domain signal.
-63  |  fBodyAccJerkMagMean | Frequency domain signal.
-64  |  fBodyAccJerkMagStd | Frequency domain signal.
-65  |  fBodyGyroMagMean | Frequency domain signal.
-66  |  fBodyGyroMagStd | Frequency domain signal.
-67  |  fBodyGyroJerkMagMean | Frequency domain signal.
-68  |  fBodyGyroJerkMagStd | Frequency domain signal.
+15  |  tBodyAccJerkMeanX | Time domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the 'X' axis.
+16  |  tBodyAccJerkMeanY | Time domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the 'Y' axis.
+17  |  tBodyAccJerkMeanZ | Time domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the 'Z' axis.
+18  |  tBodyAccJerkStdX | Time domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the 'X' axis.
+19  |  tBodyAccJerkStdY | Time domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the 'Y' axis.
+20  |  tBodyAccJerkStdZ | Time domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the 'Z' axis.
+21  |  tBodyGyroMeanX | Time domain signal. Mean value of the body angular velocity on the 'X' axis. Signals are captured from gyroscope at a constant rate of 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+22  |  tBodyGyroMeanY | Time domain signal. Mean value of the body angular velocity on the 'Y' axis. Signals are captured from gyroscope at a constant rate of 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+23  |  tBodyGyroMeanZ | Time domain signal. Mean value of the body angular velocity on the 'Z' axis. Signals are captured from gyroscope at a constant rate of 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+24  |  tBodyGyroStdX | Time domain signal. Standard deviation for the body angular velocity on the 'X' axis. Signals are captured from gyroscope at a constant rate of 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+25  |  tBodyGyroStdY | Time domain signal. Standard deviation for the body angular velocity on the 'Y' axis. Signals are captured from gyroscope at a constant rate of 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+26  |  tBodyGyroStdZ | Time domain signal. Standard deviation for the body angular velocity on the 'Z' axis. Signals are captured from gyroscope at a constant rate of 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+27  |  tBodyGyroJerkMeanX | Time domain signal. Mean value of the Jerk signal derived from the angular velocity on the 'X' axis.
+28  |  tBodyGyroJerkMeanY | Time domain signal. Mean value of the Jerk signal derived from the angular velocity on the 'Y' axis.
+29  |  tBodyGyroJerkMeanZ | Time domain signal. Mean value of the Jerk signal derived from the angular velocity on the 'Z' axis.
+30  |  tBodyGyroJerkStdX | Time domain signal. Standard deviation for the Jerk signal derived from the angular velocity on the 'X' axis.
+31  |  tBodyGyroJerkStdY | Time domain signal. Standard deviation for the Jerk signal derived from the angular velocity on the 'Y' axis.
+32  |  tBodyGyroJerkStdZ | Time domain signal. Standard deviation for the Jerk signal derived from the angular velocity on the 'Z' axis.
+33  |  tBodyAccMagMean | Time domain signal. Mean value of the magnitude of the body acceleration three-dimensional signals. Magnitude is calculated using the Euclidean norm.
+34  |  tBodyAccMagStd | Time domain signal. Standard deviation for the magnitude of the body acceleration three-dimensional signals. Magnitude is calculated using the Euclidean norm.
+35  |  tGravityAccMagMean | Time domain signal. Mean value of the magnitude of the gravity acceleration three-dimensional signals. Magnitude is calculated using the Euclidean norm.
+36  |  tGravityAccMagStd | Time domain signal. Standard deviation for the magnitude of the gravity acceleration three-dimensional signals. Magnitude is calculated using the Euclidean norm.
+37  |  tBodyAccJerkMagMean | Time domain signal. Mean value of the magnitude of the Jerk three-dimensional signals derived from the body linear acceleration. Magnitude is calculated using the Euclidean norm.
+38  |  tBodyAccJerkMagStd | Time domain signal. Standard deviation for the magnitude of the Jerk three-dimensional signals derived from the body linear acceleration. Magnitude is calculated using the Euclidean norm.
+39  |  tBodyGyroMagMean | Time domain signal. Mean value of the magnitude of the body angular velocity three-dimensional signals. Magnitude is calculated using the Euclidean norm.
+40  |  tBodyGyroMagStd | Time domain signal. Standard deviation for the magnitude of the body angular velocity three-dimensional signals. Magnitude is calculated using the Euclidean norm.
+41  |  tBodyGyroJerkMagMean | Time domain signal. Mean value of the magnitude of the Jerk three-dimensional signals derived from the body angular velocity. Magnitude is calculated using the Euclidean norm.
+42  |  tBodyGyroJerkMagStd | Time domain signal. Standard deviation for the magnitude of the Jerk three-dimensional signals derived from the body angular velocity. Magnitude is calculated using the Euclidean norm.
+43  |  fBodyAccMeanX | Frequency domain signal. Mean value of the body acceleration signals on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+44  |  fBodyAccMeanY | Frequency domain signal. Frequency domain signal. Mean value of the body acceleration signals on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+45  |  fBodyAccMeanZ | Frequency domain signal. Frequency domain signal. Mean value of the body acceleration signals on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+46  |  fBodyAccStdX | Frequency domain signal. Standard deviation for the body acceleration signals on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+47  |  fBodyAccStdY | Frequency domain signal. Standard deviation for the body acceleration signals on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+48  |  fBodyAccStdZ | Frequency domain signal. Standard deviation for the body acceleration signals on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+49  |  fBodyAccJerkMeanX | Frequency domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+50  |  fBodyAccJerkMeanY | Frequency domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+51  |  fBodyAccJerkMeanZ | Frequency domain signal. Mean value of the Jerk signal derived from the body linear acceleration on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+52  |  fBodyAccJerkStdX | Frequency domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+53  |  fBodyAccJerkStdY | Frequency domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+54  |  fBodyAccJerkStdZ | Frequency domain signal. Standard deviation for the Jerk signal derived from the body linear acceleration on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+55  |  fBodyGyroMeanX | Frequency domain signal. Mean value of the body angular velocity on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+56  |  fBodyGyroMeanY | Frequency domain signal. Mean value of the body angular velocity on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+57  |  fBodyGyroMeanZ | Frequency domain signal. Mean value of the body angular velocity on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+58  |  fBodyGyroStdX | Frequency domain signal. Standard deviation for the body angular velocity on the ‘X’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+59  |  fBodyGyroStdY | Frequency domain signal. Standard deviation for the body angular velocity on the ‘Y’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+60  |  fBodyGyroStdZ | Frequency domain signal. Standard deviation for the body angular velocity on the ‘Z’ axis with a Fast Fourier Transform (FFT) applied to these signals.
+61  |  fBodyAccMagMean | Frequency domain signal. Mean value of the magnitude of the body acceleration three-dimensional signals with a Fast Fourier Transform (FFT) applied to these signals. 
+62  |  fBodyAccMagStd | Frequency domain signal. Standard deviation for the magnitude of the body acceleration three-dimensional signals with a Fast Fourier Transform (FFT) applied to these signals. 
+63  |  fBodyAccJerkMagMean | Frequency domain signal. Mean value of the magnitude of the Jerk three-dimensional signals derived from the body linear acceleration with a Fast Fourier Transform (FFT) applied to these signals.
+64  |  fBodyAccJerkMagStd | Frequency domain signal. Standard deviation for the magnitude of the Jerk three-dimensional signals derived from the body linear acceleration with a Fast Fourier Transform (FFT) applied to these signals.
+65  |  fBodyGyroMagMean | Frequency domain signal. Mean value of the magnitude of the body angular velocity three-dimensional signals with a Fast Fourier Transform (FFT) applied to these signals.
+66  |  fBodyGyroMagStd | Frequency domain signal. Standard deviation for the magnitude of the body angular velocity three-dimensional signals with a Fast Fourier Transform (FFT) applied to these signals.
+67  |  fBodyGyroJerkMagMean | Frequency domain signal. Mean value of the magnitude of the Jerk three-dimensional signals derived from the body angular velocity with a Fast Fourier Transform (FFT) applied to these signals.
+68  |  fBodyGyroJerkMagStd | Frequency domain signal. Standard deviation for the magnitude of the Jerk three-dimensional signals derived from the body angular velocity with a Fast Fourier Transform (FFT) applied to these signals.
