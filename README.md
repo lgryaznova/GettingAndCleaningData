@@ -19,7 +19,7 @@ The data for the project can be downloaded here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
-## Prerequisites
+## Important Notice
 
 The data should be **downloaded and unzipped** to the working directory in advance maintaining the inner structure of the archive. The script expects to find the data in the 'UCI HAR Dataset' folder (which has 'test' and 'train' subfolders) in your working directory.
 
