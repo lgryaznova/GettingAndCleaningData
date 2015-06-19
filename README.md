@@ -28,6 +28,12 @@ The script needs **plyr** package. If the package is not installed, run the foll
 install.packages("plyr")
 ```
 
+To run the script source it to the console using
+```{r}
+source('run_analysis.R')
+```
+When the script finishes its work, the message will be displayed and your working directory will contain the file 'tidydata.txt' with the script's output.
+
 
 ## Data Processing
 

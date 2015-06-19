@@ -69,3 +69,6 @@ tidyData <- ddply(merged, .(Subject, Activity),
 write.table(tidyData, file = "./tidydata.txt", 
             row.name = FALSE)
 
+print("The script finished its work.")
+print("The output is stored in tidydata.txt file in your working directory.")
+
