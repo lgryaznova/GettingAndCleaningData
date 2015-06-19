@@ -56,6 +56,8 @@ merged$Activity <- sapply(c(train_activities[,1], test_activities[,1]),
 ## clean column names
 names(merged) <- gsub("[.]", "", names(merged))
 names(merged) <- gsub("BodyBody", "Body", names(merged))
+names(merged) <- gsub("mean", "Mean", names(merged))
+names(merged) <- gsub("std", "Std", names(merged))
 
 
 ##### STEP 5 ###############
