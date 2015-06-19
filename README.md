@@ -28,7 +28,7 @@ The script needs **plyr** package. If the package is not installed, run the foll
 install.packages("plyr")
 ```
 
-To run the script source it to the console using
+**To run the script** source it to the console using
 ```{r}
 source('run_analysis.R')
 ```
