@@ -11,7 +11,7 @@ The script **run_analysis.R** deals with two given data sets and does the follow
 * Appropriately labels the data set with descriptive variable names.
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The output of the script is written to the file called **'tidydata.txt'** located in the working directory.
+The output of the script is written to the file called **tidydata.txt** located in the working directory.
 
 The repo also includes **CodeBook.md** which describes the meaning of each column in the tidy data set produced by the script.
 
@@ -25,7 +25,7 @@ The data should be **downloaded and unzipped** to the working directory in advan
 
 The script needs **plyr** package. If the package is not installed, run the following code in R console to obtain it:
 ```{r}
-install.packages("plyr")
+install.packages('plyr')
 ```
 
 **To run the script** source it to the console using
@@ -82,7 +82,7 @@ The script cleans the data frame column names by removing unnecessary symbols an
 
 ### Step 5
 
-The script creates an independent tidy data set with the average of each variable for each activity and each subjectfrom the `merged` data set. `ddply` function from `plyr` package is used here. The new data set is stored in `tidyData` data frame and is written to the file 'tidydata.txt' in the working directory (NOT inside the 'UCI HAR Dataset' folder).
+The script creates an independent tidy data set with the average of each variable for each activity and each subject from the `merged` data set. `ddply` function from `plyr` package is used here. The new data set is stored in `tidyData` data frame and is written to the file 'tidydata.txt' in the working directory (NOT inside the 'UCI HAR Dataset' folder).
 
 
 
