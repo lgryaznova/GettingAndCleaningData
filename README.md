@@ -34,7 +34,7 @@ source('run_analysis.R')
 ```
 When the script finishes its work, the message will be displayed and your working directory will contain the file 'tidydata.txt' with the script's output.
 
-**To read the output file** properly use `read.table` command, e.g.:
+**To read the output file** properly use `read.table()` command, e.g.:
 ```{r}
 yourVariableName <- read.table(file = 'tidydata.txt', header = TRUE)
 ```
